@@ -2,7 +2,7 @@ require 'mongo'
 require 'pp'
 require 'byebug'
 require 'uri'
-#Mongo::Logger.logger.level = ::Logger::INFO
+Mongo::Logger.logger.level = ::Logger::INFO
 #Mongo::Logger.logger.level = ::Logger::DEBUG
 
 class Solution
@@ -27,10 +27,15 @@ end
 #byebug
 db=Solution.mongo_client
 #p db
+pp "Database name: #{db.database.name}"
+
 zips=Solution.collection
 #p zips
+pp "Collection name: #{zips.name}"
+
 s=Solution.new
 pp s.sample
+
 
 
 
