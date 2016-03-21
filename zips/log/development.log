@@ -1,0 +1,961 @@
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.002304s
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.0005809999999999999s
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.00039s
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.002244s
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.002078s
+MONGODB | localhost:27017 | zips_development.getMore | STARTED | {"getMore"=>21763611356, "collection"=>"zips"}
+MONGODB | localhost:27017 | zips_development.getMore | SUCCEEDED | 0.22522699999999998s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.062346000000000006s
+Value of 'k & v' initially: population / 1
+Value of 'k' after: pop
+Value of 'tmp[k]' initially: 1
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.06862599999999999s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | FAILED | abort then interrupt! | 39.000413s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.070789s
+Value of 'k & v' initially: population and 1
+Value of 'k' after: pop
+Value of 'tmp[k]' initially: 1
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.06355s
+Value of 'k & v' initially: population and 1
+Value of 'k' after: pop
+Value of 'tmp[k]' initially: 1
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021023999999999998s
+Value of 'tmp[k]' initially: 
+Value of 'k & v' initially: population and 1
+Value of 'k' after: pop
+Value of 'tmp[k]' after: 1
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.022272s
+Value of 'tmp[k]' initially: 
+Value of 'k.to_sym & v' initially: population and 1
+Value of 'k.to_sym' after: pop
+Value of 'tmp' after: {:pop=>1}
+Value of 'tmp[k]' after: 1
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021563000000000002s
+Value of 'tmp' initially: {}
+Value of 'tmp' after: {}
+Value of 'tmp' after: {:pop=>1}
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.020259s
+Value of 'tmp' 1st: {}
+Value of 'tmp' 2nd: {}
+Value of 'tmp' 3rd: {:pop=>1}
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021873s
+Value of 'tmp' 1st: {}
+Value of 'tmp' 2nd: {}
+Value of 'tmp' 3rd: {:pop=>1}
+Value of 'tmp' 1st: {}
+Value of 'tmp' 2nd: {}
+Value of 'tmp' 3rd: {:pop=>1}
+Value of 'tmp' 1st: {:pop=>1}
+Value of 'tmp' 2nd: {:pop=>1}
+Value of 'tmp' 3rd: {:pop=>1}
+Value of 'tmp' 1st: {}
+Value of 'tmp' 2nd: {}
+Value of 'tmp' 3rd: {:pop=>1}
+Value of 'tmp' 1st: {:pop=>1}
+Value of 'tmp' 2nd: {:pop=>1}
+Value of 'tmp' 3rd: {:pop=>1}
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021522999999999997s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.062688s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.060979s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.065033s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.06417099999999999s
+getting all zips, prototype={}, sort={}, offset=0, limit=
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>0}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.002254s
+MONGODB | localhost:27017 | zips_development.getMore | STARTED | {"getMore"=>22061838492, "collection"=>"zips"}
+MONGODB | localhost:27017 | zips_development.getMore | SUCCEEDED | 0.218474s
+getting all zips, prototype={}, sort={}, offset=353, limit=
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>353}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.00244s
+MONGODB | localhost:27017 | zips_development.getMore | STARTED | {"getMore"=>23985554143, "collection"=>"zips"}
+MONGODB | localhost:27017 | zips_development.getMore | SUCCEEDED | 0.20357799999999998s
+getting all zips, prototype={}, sort={}, offset=353, limit=
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>353}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.001299s
+MONGODB | localhost:27017 | zips_development.getMore | STARTED | {"getMore"=>23708430589, "collection"=>"zips"}
+MONGODB | localhost:27017 | zips_development.getMore | SUCCEEDED | 0.20211500000000002s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.097433s
+MONGODB | localhost:27017 | zips_development.getMore | STARTED | {"getMore"=>22118840895, "collection"=>"zips"}
+MONGODB | localhost:27017 | zips_development.getMore | SUCCEEDED | 0.229187s
+getting all zips, prototype={}, sort={:pop=>-1}, offset=0, limit=
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1}, "skip"=>0}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.09447499999999999s
+MONGODB | localhost:27017 | zips_development.getMore | STARTED | {"getMore"=>25297933951, "collection"=>"zips"}
+MONGODB | localhost:27017 | zips_development.getMore | SUCCEEDED | 0.22497699999999998s
+getting all zips, prototype={}, sort={:city=>-1}, offset=0, limit=
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"city"=>-1}, "skip"=>0}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.09123899999999999s
+MONGODB | localhost:27017 | zips_development.getMore | STARTED | {"getMore"=>22595633313, "collection"=>"zips"}
+MONGODB | localhost:27017 | zips_development.getMore | SUCCEEDED | 0.216077s
+getting all zips, prototype={}, sort={:city=>1}, offset=0, limit=
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"city"=>1}, "skip"=>0}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.102631s
+MONGODB | localhost:27017 | zips_development.getMore | STARTED | {"getMore"=>24845137437, "collection"=>"zips"}
+MONGODB | localhost:27017 | zips_development.getMore | SUCCEEDED | 0.231688s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>-1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021878s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021723s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.018982000000000002s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=1
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021702s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.022123s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=3
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>3}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021303s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=3
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>3}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021485s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=3
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>3}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.022688000000000003s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=3
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>3}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.023392s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=3
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>3}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021279s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=3
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>3}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021489s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=3
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>3}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021464s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>-1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.019891s
+getting zip 11226
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"11226"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000471s
+getting zip 11226
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"11226"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000666s
+getting zip 11226
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"11226"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000453s
+getting zip 11226
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"11226"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.00046s
+getting zip 11226
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"11226"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000717s
+saving 00001: Fake City, WY, pop=3
+saving 00001: Fake City, WY, pop=3
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000512s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000531s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.069632s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.07020599999999999s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>-1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.022038s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>-1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021946999999999998s
+getting zip 11226
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"11226"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000744s
+saving 00001: Fake City, WY, pop=3
+saving 00001: Fake City, WY, pop=3
+MONGODB | localhost:27017 | zips_development.insert | STARTED | {"insert"=>"zips", "documents"=>[{:_id=>"00001", :city=>"Fake City", :state=>"WY", :pop=>3}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.insert | SUCCEEDED | 0.000811s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000405s
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.0007369999999999999s
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.00045200000000000004s
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+upadates 1st: {:population=>4}
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000673s
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+upadates 1st: {:population=>4}
+upadates 2nd: {:population=>4, :pop=>4}
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000761s
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+upadates 1st: {:population=>4}
+upadates 2nd: {:population=>4, :pop=>4}
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000472s
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+upadates 1st: {:population=>4}
+upadates 2nd: {:population=>4, :pop=>4}
+upadates 3rd: {:pop=>4}
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+upadates 1st: {:population=>4}
+upadates 2nd: {:population=>4, :pop=>4}
+upadates 3rd: {:pop=>4}
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000483s
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+upadates 1st: {:population=>4}
+upadates 2nd: {:population=>4, :pop=>4}
+upadates 3rd: {:pop=>4}
+MONGODB | localhost:27017 | zips_development.update | STARTED | {"update"=>"zips", "updates"=>[{"q"=>{"_id"=>"00001"}, "u"=>{:pop=>4}, "multi"=>false, "upsert"=>false}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.update | SUCCEEDED | 0.001027s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000689s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000873s
+updating 00001: , , pop=4 with {:population=>5}
+MONGODB | localhost:27017 | zips_development.update | STARTED | {"update"=>"zips", "updates"=>[{"q"=>{"_id"=>"00001"}, "u"=>{:$set=>{:pop=>5}}, "multi"=>false, "upsert"=>false}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.update | SUCCEEDED | 0.000627s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000522s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000765s
+updating 00001: , , pop=5 with {:population=>6}
+MONGODB | localhost:27017 | zips_development.update | STARTED | {"update"=>"zips", "updates"=>[{"q"=>{"_id"=>"00001"}, "u"=>{:$set=>{:pop=>6}}, "multi"=>false, "upsert"=>false}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.update | SUCCEEDED | 0.000783s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000884s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000733s
+destroying 00001: , , pop=6
+MONGODB | localhost:27017 | zips_development.delete | STARTED | {"delete"=>"zips", "deletes"=>[{"q"=>{"_id"=>"00001"}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.delete | SUCCEEDED | 0.000432s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000807s
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000504s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000608s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.064024s
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.06318399999999999s
+getting all zips, prototype={}, sort={}, offset=0, limit=
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>0}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.002204s
+MONGODB | localhost:27017 | zips_development.getMore | STARTED | {"getMore"=>25234891802, "collection"=>"zips"}
+MONGODB | localhost:27017 | zips_development.getMore | SUCCEEDED | 0.260417s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>-1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.022357s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.018857000000000002s
+getting all zips, prototype={:state=>"NY"}, sort={:pop=>-1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"NY"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1}, "skip"=>0, "limit"=>1}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.021324s
+getting zip 11226
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"11226"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000805s
+saving 00001: Fake City, WY, pop=3
+MONGODB | localhost:27017 | zips_development.insert | STARTED | {"insert"=>"zips", "documents"=>[{:_id=>"00001", :city=>"Fake City", :state=>"WY", :pop=>3}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.insert | SUCCEEDED | 0.0006619999999999999s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000711s
+updating 00001: Fake City, WY, pop=3 with {:population=>4}
+MONGODB | localhost:27017 | zips_development.update | STARTED | {"update"=>"zips", "updates"=>[{"q"=>{"_id"=>"00001"}, "u"=>{:$set=>{:pop=>4}}, "multi"=>false, "upsert"=>false}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.update | SUCCEEDED | 0.00078s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000786s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000742s
+destroying 00001: Fake City, WY, pop=4
+MONGODB | localhost:27017 | zips_development.delete | STARTED | {"delete"=>"zips", "deletes"=>[{"q"=>{"_id"=>"00001"}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.delete | SUCCEEDED | 0.000386s
+getting zip 00001
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"00001"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.0006730000000000001s
+
+
+Started GET "/zips" for ::1 at 2016-03-19 21:49:02 +0000
+Processing by ZipsController#index as HTML
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.059491s
+  Rendered zips/index.html.erb within layouts/application (70.9ms)
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `id' for {"_id"=>"02163", "city"=>"CAMBRIDGE", "pop"=>0, "state"=>"MA"}:BSON::Document):
+    16:   <tbody>
+    17:     <% @zips.each do |zip| %>
+    18:       <tr>
+    19:         <td><%= zip.id %></td>
+    20:         <td><%= zip.city %></td>
+    21:         <td><%= zip.state %></td>
+    22:         <td><%= zip.population %></td>
+  app/views/zips/index.html.erb:19:in `block in _app_views_zips_index_html_erb__1138264752181664772_70333079104080'
+  app/views/zips/index.html.erb:17:in `_app_views_zips_index_html_erb__1138264752181664772_70333079104080'
+
+
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.8ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (78.0ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (168.2ms)
+
+
+Started GET "/zips" for ::1 at 2016-03-19 22:00:19 +0000
+Processing by ZipsController#index as HTML
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.060051s
+  Rendered zips/index.html.erb within layouts/application (89.8ms)
+Completed 200 OK in 1476ms (Views: 1472.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-19 22:00:20 +0000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-19 22:00:20 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-19 22:00:20 +0000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-19 22:00:21 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-19 22:00:21 +0000
+
+
+Started GET "/zips" for ::1 at 2016-03-19 22:01:25 +0000
+Processing by ZipsController#index as HTML
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.066501s
+  Rendered zips/index.html.erb within layouts/application (96.7ms)
+Completed 200 OK in 125ms (Views: 123.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips.json" for ::1 at 2016-03-19 22:01:54 +0000
+Processing by ZipsController#index as JSON
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.060346s
+  Rendered zips/index.json.jbuilder (64.3ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (key not found: :id):
+    1: json.array!(@zips) do |zip|
+    2:   json.extract! zip, :id, :id, :city, :state, :population
+    3:   json.url zip_url(zip, format: :json)
+    4: end
+  app/views/zips/index.json.jbuilder:2:in `block in _app_views_zips_index_json_jbuilder___1200256585504072670_70333053654960'
+  app/views/zips/index.json.jbuilder:1:in `_app_views_zips_index_json_jbuilder___1200256585504072670_70333053654960'
+
+
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.7ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (65.6ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (156.8ms)
+
+
+Started GET "/zips.json" for ::1 at 2016-03-19 22:03:43 +0000
+Processing by ZipsController#index as JSON
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.08709599999999999s
+  Rendered zips/index.json.jbuilder (113.3ms)
+Completed 200 OK in 119ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips.json" for ::1 at 2016-03-19 23:20:58 +0000
+Processing by ZipsController#index as JSON
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.073511s
+  Rendered zips/index.json.jbuilder (109.9ms)
+Completed 200 OK in 141ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips" for ::1 at 2016-03-19 23:21:23 +0000
+Processing by ZipsController#index as HTML
+getting all zips, prototype={}, sort={:pop=>1}, offset=0, limit=100
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>1}, "skip"=>0, "limit"=>100}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.071199s
+  Rendered zips/index.html.erb within layouts/application (99.1ms)
+Completed 200 OK in 293ms (Views: 292.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-19 23:21:24 +0000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-19 23:21:24 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-19 23:21:24 +0000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-19 23:21:24 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-19 23:21:24 +0000
+
+
+Started GET "/?page=3" for ::1 at 2016-03-20 00:43:55 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"3"}
+paginate({:page=>"3"})
+getting all zips, prototype={}, sort={}, offset=60, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>60, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.001022s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.00028300000000000005s
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant Zip::WillPaginate):
+  app/models/zip.rb:125:in `paginate'
+  app/controllers/zips_controller.rb:8:in `index'
+
+
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (100.4ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (79.5ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/nizarvirji/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (175.9ms)
+
+
+Started GET "/?page=3" for ::1 at 2016-03-20 00:46:34 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"3"}
+paginate({:page=>"3"})
+getting all zips, prototype={}, sort={}, offset=60, limit=30
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>60, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000964s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000187s
+  Rendered zips/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 230ms (Views: 215.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-20 00:46:34 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-20 00:46:34 +0000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-20 00:46:34 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-20 00:46:34 +0000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-20 00:46:34 +0000
+
+
+Started GET "/zips?page=6" for ::1 at 2016-03-20 00:46:43 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"6"}
+paginate({:page=>"6"})
+getting all zips, prototype={}, sort={}, offset=150, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>150, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000828s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000281s
+  Rendered zips/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=978" for ::1 at 2016-03-20 00:46:52 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"978"}
+paginate({:page=>"978"})
+getting all zips, prototype={}, sort={}, offset=29310, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>29310, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.032081s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000295s
+  Rendered zips/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 70ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?page=38&per_page=10&sort=population:-1,city:1&state=MD" for ::1 at 2016-03-20 01:47:17 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"38", "per_page"=>"10", "sort"=>"population:-1,city:1", "state"=>"MD"}
+paginate({"page"=>"38", "per_page"=>"10", "sort"=>{"population"=>-1, "city"=>1}, "state"=>"MD", "controller"=>"zips", "action"=>"index"})
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>1}, offset=370, limit=10
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"MD"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1, "city"=>1}, "skip"=>370, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.024969s
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{"state"=>"MD"}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.015289s
+  Rendered zips/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 292ms (Views: 237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=40&per_page=10&sort=population%3A-1%2Ccity%3A1&state=MD" for ::1 at 2016-03-20 01:47:28 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"40", "per_page"=>"10", "sort"=>"population:-1,city:1", "state"=>"MD"}
+paginate({"page"=>"40", "per_page"=>"10", "sort"=>{"population"=>-1, "city"=>1}, "state"=>"MD", "controller"=>"zips", "action"=>"index"})
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>1}, offset=390, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"MD"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1, "city"=>1}, "skip"=>390, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.024276s
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{"state"=>"MD"}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.016375s
+  Rendered zips/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 65ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=36&per_page=10&sort=population%3A-1%2Ccity%3A1&state=MD" for ::1 at 2016-03-20 01:47:31 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"36", "per_page"=>"10", "sort"=>"population:-1,city:1", "state"=>"MD"}
+paginate({"page"=>"36", "per_page"=>"10", "sort"=>{"population"=>-1, "city"=>1}, "state"=>"MD", "controller"=>"zips", "action"=>"index"})
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>1}, offset=350, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"MD"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1, "city"=>1}, "skip"=>350, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.019954s
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{"state"=>"MD"}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.017765s
+  Rendered zips/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 65ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=38&per_page=10&sort=population%3A-1%2Ccity%3A1&state=MD" for ::1 at 2016-03-20 01:47:56 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"38", "per_page"=>"10", "sort"=>"population:-1,city:1", "state"=>"MD"}
+paginate({"page"=>"38", "per_page"=>"10", "sort"=>{"population"=>-1, "city"=>1}, "state"=>"MD", "controller"=>"zips", "action"=>"index"})
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>1}, offset=370, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"MD"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1, "city"=>1}, "skip"=>370, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.024303s
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{"state"=>"MD"}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.015483s
+  Rendered zips/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 77ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=38&per_page=10&sort=population%3A-1%2Ccity%3A-1&state=MD" for ::1 at 2016-03-20 01:49:17 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"38", "per_page"=>"10", "sort"=>"population:-1,city:-1", "state"=>"MD"}
+paginate({"page"=>"38", "per_page"=>"10", "sort"=>{"population"=>-1, "city"=>-1}, "state"=>"MD", "controller"=>"zips", "action"=>"index"})
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>-1}, offset=370, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"MD"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1, "city"=>-1}, "skip"=>370, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.018845s
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>-1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{"state"=>"MD"}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.015709s
+  Rendered zips/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 74ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips.json" for ::1 at 2016-03-20 18:10:23 +0000
+Processing by ZipsController#index as JSON
+paginate({"controller"=>"zips", "action"=>"index", "format"=>"json", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=0, limit=30
+MONGODB | Adding localhost:27017 to the cluster.
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>0, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.001538s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.00021s
+  Rendered zips/index.json.jbuilder (9.5ms)
+Completed 200 OK in 41ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=38&per_page=10&sort=population%3A-1%2Ccity%3A-1&state=MD" for ::1 at 2016-03-20 18:10:26 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"38", "per_page"=>"10", "sort"=>"population:-1,city:-1", "state"=>"MD"}
+paginate({"page"=>"38", "per_page"=>"10", "sort"=>{"population"=>-1, "city"=>-1}, "state"=>"MD", "controller"=>"zips", "action"=>"index"})
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>-1}, offset=370, limit=10
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"state"=>"MD"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{"pop"=>-1, "city"=>-1}, "skip"=>370, "limit"=>10}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.025717999999999998s
+getting all zips, prototype={:state=>"MD"}, sort={:pop=>-1, :city=>-1}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{"state"=>"MD"}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.014910999999999999s
+  Rendered zips/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 254ms (Views: 210.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-20 18:10:26 +0000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-20 18:10:26 +0000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-20 18:10:26 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-20 18:10:26 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-20 18:10:26 +0000
+
+
+Started GET "/zips/new" for ::1 at 2016-03-20 18:10:54 +0000
+Processing by ZipsController#new as HTML
+  Rendered zips/_form.html.erb (21.2ms)
+  Rendered zips/new.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/zips" for ::1 at 2016-03-20 18:11:24 +0000
+Processing by ZipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rIvYXpvI+UKqxxRukwHFPqsVHeHZncGkIYq9knhtgpIkLt+wk6Avm2t45qj5e21dQUFUKW9igQfrtVWRio2ChA==", "zip"=>{"id"=>"12345", "city"=>"test", "state"=>"te", "population"=>"3"}, "commit"=>"Create Zip"}
+saving 12345: test, te, pop=3
+MONGODB | localhost:27017 | zips_development.insert | STARTED | {"insert"=>"zips", "documents"=>[{:_id=>"12345", :city=>"test", :state=>"te", :pop=>"3"}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.insert | SUCCEEDED | 0.009647999999999999s
+Redirected to http://localhost:3000/zips/12345
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/zips/12345" for ::1 at 2016-03-20 18:11:24 +0000
+Processing by ZipsController#show as HTML
+  Parameters: {"id"=>"12345"}
+getting zip 12345
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"12345"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.001133s
+  Rendered zips/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips" for ::1 at 2016-03-20 18:11:29 +0000
+Processing by ZipsController#index as HTML
+paginate({"controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=0, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>0, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000803s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000213s
+  Rendered zips/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 44ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips/12345" for ::1 at 2016-03-20 18:11:47 +0000
+Processing by ZipsController#show as HTML
+  Parameters: {"id"=>"12345"}
+getting zip 12345
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"12345"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.001121s
+  Rendered zips/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips/02138" for ::1 at 2016-03-20 18:11:58 +0000
+Processing by ZipsController#show as HTML
+  Parameters: {"id"=>"02138"}
+getting zip 02138
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"02138"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.00044500000000000003s
+  Rendered zips/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips/12345" for ::1 at 2016-03-20 18:12:07 +0000
+Processing by ZipsController#show as HTML
+  Parameters: {"id"=>"12345"}
+getting zip 12345
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"12345"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.00037400000000000004s
+  Rendered zips/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips/12345/edit" for ::1 at 2016-03-20 18:12:16 +0000
+Processing by ZipsController#edit as HTML
+  Parameters: {"id"=>"12345"}
+getting zip 12345
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"12345"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000427s
+  Rendered zips/_form.html.erb (2.1ms)
+  Rendered zips/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/zips/12345" for ::1 at 2016-03-20 18:12:21 +0000
+Processing by ZipsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5Ki7SWkTgDOnd1w4RosbIMazIqoDN6j63RmDzolZUY1sDbynYXtW6mbIrv4s8bNDLOdrYrXI6FkXJmvNe7lRmw==", "zip"=>{"id"=>"12345", "city"=>"test", "state"=>"te", "population"=>"5"}, "commit"=>"Update Zip", "id"=>"12345"}
+getting zip 12345
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"12345"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.0005070000000000001s
+updating 12345: test, te, pop=3 with {"id"=>"12345", "city"=>"test", "state"=>"te", "population"=>"5"}
+MONGODB | localhost:27017 | zips_development.update | STARTED | {"update"=>"zips", "updates"=>[{"q"=>{"_id"=>"12345"}, "u"=>{:$set=>{"city"=>"test", "state"=>"te", "pop"=>"5"}}, "multi"=>false, "upsert"=>false}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.update | SUCCEEDED | 0.0006389999999999999s
+Redirected to http://localhost:3000/zips/12345
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/zips/12345" for ::1 at 2016-03-20 18:12:21 +0000
+Processing by ZipsController#show as HTML
+  Parameters: {"id"=>"12345"}
+getting zip 12345
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"12345"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000415s
+  Rendered zips/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips" for ::1 at 2016-03-20 18:12:24 +0000
+Processing by ZipsController#index as HTML
+paginate({"controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=0, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>0, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.0005830000000000001s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.00019s
+  Rendered zips/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=8" for ::1 at 2016-03-20 18:12:30 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"8"}
+paginate({"page"=>"8", "controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=210, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>210, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.0008190000000000001s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000239s
+  Rendered zips/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=12" for ::1 at 2016-03-20 18:12:33 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"12"}
+paginate({"page"=>"12", "controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=330, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>330, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.0013640000000000002s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000398s
+  Rendered zips/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 30ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=16" for ::1 at 2016-03-20 18:12:40 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"16"}
+paginate({"page"=>"16", "controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=450, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>450, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000891s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.00023700000000000001s
+  Rendered zips/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=30" for ::1 at 2016-03-20 18:12:49 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"30"}
+paginate({"page"=>"30", "controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=870, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>870, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.0013490000000000002s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000351s
+  Rendered zips/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=979" for ::1 at 2016-03-20 18:12:59 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"979"}
+paginate({"page"=>"979", "controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=29340, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>29340, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.023458s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000293s
+  Rendered zips/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 47ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips/12345" for ::1 at 2016-03-20 18:13:03 +0000
+Processing by ZipsController#show as HTML
+  Parameters: {"id"=>"12345"}
+getting zip 12345
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"12345"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.00040300000000000004s
+  Rendered zips/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips" for ::1 at 2016-03-20 18:13:06 +0000
+Processing by ZipsController#index as HTML
+paginate({"controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=0, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>0, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.0006969999999999999s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.00027100000000000003s
+  Rendered zips/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=2" for ::1 at 2016-03-20 18:13:11 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"2"}
+paginate({"page"=>"2", "controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=30, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>30, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.000907s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.00026500000000000004s
+  Rendered zips/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 30ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=979" for ::1 at 2016-03-20 18:13:12 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"979"}
+paginate({"page"=>"979", "controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=29340, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>29340, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.024279s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.0005729999999999999s
+  Rendered zips/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 53ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/zips/12345" for ::1 at 2016-03-20 18:13:20 +0000
+Processing by ZipsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UogjIMG+RI4tv5FVALUlTj8ns0ORfJamQsQ6aOztsfLaLSTOydaSV+wAY5Nqz40t1XP6iyeD1gWI+9JrHg2x5A==", "id"=>"12345"}
+getting zip 12345
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{"_id"=>"12345"}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.00038s
+destroying 12345: test, te, pop=5
+MONGODB | localhost:27017 | zips_development.delete | STARTED | {"delete"=>"zips", "deletes"=>[{"q"=>{"_id"=>"12345"}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | zips_development.delete | SUCCEEDED | 0.00034199999999999996s
+Redirected to http://localhost:3000/zips
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/zips" for ::1 at 2016-03-20 18:13:20 +0000
+Processing by ZipsController#index as HTML
+paginate({"controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=0, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>0, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.0006670000000000001s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.000192s
+  Rendered zips/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 29ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/zips?page=979" for ::1 at 2016-03-20 18:13:24 +0000
+Processing by ZipsController#index as HTML
+  Parameters: {"page"=>"979"}
+paginate({"page"=>"979", "controller"=>"zips", "action"=>"index", "sort"=>{}})
+getting all zips, prototype={}, sort={}, offset=29340, limit=30
+MONGODB | localhost:27017 | zips_development.find | STARTED | {"find"=>"zips", "filter"=>{}, "projection"=>{"_id"=>true, "city"=>true, "state"=>true, "pop"=>true}, "sort"=>{}, "skip"=>29340, "limit"=>30}
+MONGODB | localhost:27017 | zips_development.find | SUCCEEDED | 0.023262s
+getting all zips, prototype={}, sort={}, offset=0, limit=1
+MONGODB | localhost:27017 | zips_development.count | STARTED | {"count"=>"zips", "query"=>{}}
+MONGODB | localhost:27017 | zips_development.count | SUCCEEDED | 0.00033400000000000004s
+  Rendered zips/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 52ms (Views: 26.0ms | ActiveRecord: 0.0ms)
